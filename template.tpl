@@ -48,7 +48,7 @@ const injectScript = require('injectScript');
 log('data =', data);
 const api_key = encodeUriComponent(data.api_key);
 
-const trackingUrl = 'https://gtm.500apps.com/gtm/botup/' + api_key +'.js';
+const trackingUrl = 'https://gtm.kong.ai/gtm/kong/' + api_key +'.js';
 injectScript(trackingUrl, data.gtmOnSuccess, data.gtmOnFailure);
 data.gtmOnSuccess();
 
@@ -123,5 +123,3 @@ scenarios:
 ___NOTES___
 
 Created on 30/09/2024, 17:40:21
-
-
