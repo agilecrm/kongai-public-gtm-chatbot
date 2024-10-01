@@ -88,7 +88,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://gtm.500apps.com/gtm/*"
+                "string": "https://gtm.kong.ai/gtm/*"
               }
             ]
           }
